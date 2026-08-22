@@ -1,0 +1,38 @@
+name: mobile
+
+description: "A mobile application for AI-powered plant identification."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.2.3
+  http: ^1.6.0
+  http_parser: ^4.1.2
+  image: ^4.5.4
+  path_provider: ^2.1.5
+  image_cropper_widget: ^1.0.7
+  google_fonts: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/plant_background.jpg
+    - assets/images/plant_cactus.jpg
+    - assets/images/plant_house.jpg
+    - assets/images/plant_flower.jpg
+    - assets/images/plant_leaf.jpg
